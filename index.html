@@ -6,17 +6,17 @@
     <title>Your Website Title</title>
 </head>
 <body>
-    <div style="width: 500px; height: 500px;" id="VG_OVERLAY_CONTAINER">
-        <!-- Here is where TIXAE Agents renders the widget. -->
+    <div style="width: 0; height: 0;" id="VG_OVERLAY_CONTAINER">
+        <!-- Chatbot widget will render here -->
     </div>
 
     <!-- Chatbot script -->
     <script defer>
         (function() {
             window.VG_CONFIG = {
-                ID: "z1qva35hiqdvbrj5",
-                region: 'eu',
-                render: 'full-width',
+                ID: "z1qva35hiqdvbrj5", // YOUR AGENT ID
+                region: 'eu', // YOUR ACCOUNT REGION
+                render: 'bottom-right', // can be 'full-width', 'bottom-left', or 'bottom-right'
                 stylesheets: [
                     "https://vg-bunny-cdn.b-cdn.net/vg_live_build/styles.css",
                 ],
